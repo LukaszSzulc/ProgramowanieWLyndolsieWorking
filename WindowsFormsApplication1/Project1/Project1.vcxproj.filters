@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\WinToolkit">
+      <UniqueIdentifier>{3f5ec439-c5ce-422f-b5e6-3345487125a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinToolkit">
+      <UniqueIdentifier>{a17b27b1-abb9-436a-9b3d-1dc5a038c6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinToolkit\Forms">
+      <UniqueIdentifier>{66fbfcff-715f-4a82-adc3-1a00822653ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinToolkit\Drawing">
+      <UniqueIdentifier>{be4dc404-8373-4694-bfb3-fdf9021ee06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinToolkit\Forms">
+      <UniqueIdentifier>{0c642828-0014-482a-93ea-c45f4a289ae0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlCollection.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\WinToolkit\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Header Files\WinToolkit\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlCollection.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
