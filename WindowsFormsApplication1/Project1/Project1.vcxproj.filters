@@ -51,6 +51,18 @@
     <ClCompile Include="Application.cpp">
       <Filter>Source Files\WinToolkit\Forms</Filter>
     </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioButton.cpp">
+      <Filter>Source Files\WinToolkit\Forms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Program.h">
@@ -78,6 +90,18 @@
       <Filter>Header Files\WinToolkit\Forms</Filter>
     </ClInclude>
     <ClInclude Include="Application.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Header Files\WinToolkit\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButton.h">
       <Filter>Header Files\WinToolkit\Forms</Filter>
     </ClInclude>
   </ItemGroup>
